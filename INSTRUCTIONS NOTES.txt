@@ -1,7 +1,10 @@
-#sign-application
-app.js file 
+#sign-application files & directory
+app.js 
 #public directory 
-a)index.html file 
-b)success.html file 
-c)success.html file 
-Installation commands
+a)index.html 
+b)success.html 
+c)success.html 
+#Installation commands
+npm install express --save
+npm install body-parser --savenpm
+npm install mongoose --save
