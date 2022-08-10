@@ -2,7 +2,8 @@ var express=require("express");
 var bodyParser=require("body-parser");
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/tutorialsPoint');
+mongoose.connect('mongodb+srv:m001-student:m001-mongodb-basics@sandbox.zxo60va.mongodb.net/myFirstDatabase'
+);
 var db=mongoose.connection;
 db.on('error', console.log.bind(console, "connection error"));
 db.once('open', function(callback){
