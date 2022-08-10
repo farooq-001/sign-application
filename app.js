@@ -2,7 +2,7 @@ var express=require("express");
 var bodyParser=require("body-parser");
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv:m001-student://m001-mongodb-basics@sandbox.zxo60va.mongodb.net/myFirstDatabase');
+mongoose.connect('mongodb+srv://m001-student:m001-mongodb-basics@sandbox.zxo60va.mongodb.net/myFirstDatabase');
 
 var db=mongoose.connection;
 db.on('error', console.log.bind(console, "connection error"));
